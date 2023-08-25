@@ -60,3 +60,15 @@
 #quebra__linha {
     display: block;
 }
+
+#outros__testes h4{
+    padding: 20px 40px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(224, 30%, 27%);
+}
+
+#teste__reaction p {
+    display: inline-block;
+}
