@@ -170,3 +170,26 @@
   margin-left: 5px;
   color: hsl(241, 100%, 89%);
 }
+
+#outros__testes #seguir {
+  text-align: center;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 30px;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 34px;
+}
+
+.attribution {
+  padding-top: 25px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
