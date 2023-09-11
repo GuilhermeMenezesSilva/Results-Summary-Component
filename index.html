@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styled/style.css">
     <link rel="stylesheet" href="styled/reset.css">
+    <link rel="stylesheet" href="styled/pequeno.css" media="screen and (max-width: 320px)">
+    <link rel="stylesheet" href="styled/pequeno_medio.css" media="screen and (min-width: 375px)">
+    <link rel="stylesheet" href="styled/medio.css" media="screen and (min-width: 600px)">
     <title>Summary results</title>
 </head>
 
@@ -25,25 +27,25 @@
     <main id="outros__testes">
         <h4>Summary</h4>
         <div>
-            <div id="teste__reaction">
+            <div class="teste">
                 <img src="./images/icon-reaction.svg" alt="mini imagem de reação">
                 <p id="titulo__teste__reaction">Reaction</p>
-                <p class="resultado__teste">80<span id="total">/100</span></p>
+                <p class="resultado__teste">80<span class="total">/100</span></p>
             </div>
 
-            <div id="teste__memory">
+            <div class="teste">
                 <img src="./images/icon-memory.svg" alt="mini imagem de memoria">
                 <p id="titulo__teste__memory">Memory</p>
                 <p class="resultado__teste">92<span class="total">/100</span></p>
             </div>
 
-            <div id="teste__verbal">
+            <div class="teste">
                 <img src="./images/icon-verbal.svg" alt="mini imagem de verbal">
                 <p id="titulo__teste__verbal">Verbal</p>
                 <p class="resultado__teste">61<span class="total">/100</span></p>
             </div>
 
-            <div id="teste__visual">
+            <div class="teste">
                 <img src="./images/icon-visual.svg" alt="mini imagem de verbal">
                 <p id="titulo__teste__visual">Visual</p>
                 <p class="resultado__teste">72<span class="total">/100</span></p>
