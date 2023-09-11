@@ -1,0 +1,39 @@
+#titulo__teste__reaction {
+  color: hsl(0, 100%, 67%);
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 3px;
+  margin-left: 30px;
+  margin-right: 330px;
+}
+
+#titulo__teste__memory {
+    color: hsl(39, 100%, 56%);
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-left: 30px;
+    margin-right: 330px;
+}
+  
+  #titulo__teste__verbal {
+    color: hsl(166, 100%, 37%);
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-left: 30px;
+    margin-right: 342px;
+}
+  
+  #titulo__teste__visual {
+    color: hsl(234, 85%, 45%);
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-left: 30px;
+    margin-right: 342px;
+}
