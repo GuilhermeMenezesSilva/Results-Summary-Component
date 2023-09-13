@@ -72,7 +72,7 @@
   color: hsl(224, 30%, 27%);
 }
 
-img{
+img {
   margin-left: -45px;
 }
 
@@ -81,7 +81,7 @@ img{
   justify-content: space-around;
   background-color: hsla(0, 100%, 67%, 0.103);
   padding: 1.3em 1.4em;
-  margin: 0 2rem 2rem 1.7em ;
+  margin: 0 2rem 2rem 1.7em;
   border-radius: 10px;
 }
 
@@ -113,7 +113,7 @@ img{
   justify-content: space-around;
   background-color: hsla(39, 100%, 56%, 0.103);
   padding: 1.3em 1.4em;
-  margin: 0 2rem 2rem 1.7em ;
+  margin: 0 2rem 2rem 1.7em;
   border-radius: 10px;
 }
 
@@ -131,7 +131,7 @@ img{
   justify-content: space-around;
   background-color: hsla(166, 100%, 37%, 0.103);
   padding: 1.3em 1.4em;
-  margin: 0 2rem 2rem 1.7em ;
+  margin: 0 2rem 2rem 1.7em;
   border-radius: 10px;
 }
 
@@ -149,7 +149,7 @@ img{
   justify-content: space-around;
   background-color: hsl(234, 85%, 45%, 0.103);
   padding: 1.3em 1.4em;
-  margin: 0 2rem 2rem 1.7em ;
+  margin: 0 2rem 2rem 1.7em;
   border-radius: 10px;
 }
 
@@ -183,4 +183,51 @@ img{
 .attribution a {
   text-decoration: none;
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 600px) {
+  /* Cabeçalho */
+  #resultado {
+    padding-top: 50px;
+  }
+
+  #resultado h1 {
+    margin-top: -5px;
+  }
+
+  #classificacao h2 {
+    padding-top: 15px;
+  }
+
+  #classificacao p {
+    padding-top: 5px;
+    padding-bottom: 45px;
+  }
+
+  /* Principal */
+  img {
+    margin-left: -150px;
+  }
+
+  #titulo__teste__reaction,
+  #titulo__teste__memory,
+  #titulo__teste__verbal,
+  #titulo__teste__visual {
+    margin-left: -280px;
+  }
+
+  .resultado__teste {
+    margin-right: -125px;
+  }
+
+  /* Rodape */
+  #outros__testes #seguir {
+    font-size: 1.5em;
+    padding: 15px;
+  }
+
+  .attribution {
+    padding-top: 25px;
+    font-size: 0.9em;
+  }
 }
