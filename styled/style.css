@@ -6,6 +6,7 @@
   text-align: center;
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-radius: 0 0 30px 30px;
+  padding-bottom: 40px;
 }
 
 #topo h4 {
@@ -52,7 +53,6 @@
 }
 
 #classificacao p {
-  padding-bottom: 40px;
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 1.2em;
   color: hsl(241, 100%, 89%);
@@ -201,7 +201,6 @@ img {
 
   #classificacao p {
     padding-top: 5px;
-    padding-bottom: 45px;
   }
 
   /* Principal */
@@ -229,5 +228,79 @@ img {
   .attribution {
     padding-top: 25px;
     font-size: 0.9em;
+  }
+}
+
+@media screen and (min-width: 768px){
+  /* Cabeçalho */
+  #topo{
+    padding-bottom: 80px;
+  }
+
+  #topo h4 {
+    font-size: 1.8em;
+    padding-top: 48px
+  }
+
+  #resultado {
+    padding-top: 90px;
+    width: 180px;
+    height: 120px;
+  }
+
+  #resultado h1 {
+    margin-top: -45px;
+    font-size: 5em;
+  }
+
+  #resultado p {
+    margin-top: 5px;
+    font-size: 1.3em;
+  }
+
+  #classificacao h2 {
+    font-size: 2.7em;
+    padding-top: 5px;
+  }
+
+  #classificacao p {
+    font-size: 1.5em;
+    padding-top: 5px;
+  }
+
+   /* Principal */
+   #outros__testes h4 {
+    font-size: 2.5em;
+    padding: 20px 28px;
+  }
+   img {
+    margin-left: -157px;
+    width: 40px;
+  }
+
+  #titulo__teste__reaction,
+  #titulo__teste__memory,
+  #titulo__teste__verbal,
+  #titulo__teste__visual {
+    margin-left: -360px;
+    padding-top: 5px;
+    font-size: 1.5em;
+  }
+
+  .resultado__teste {    
+    margin-right: -125px;
+    padding-top: 7px;
+    font-size: 1.5em;
+  } 
+
+  /* Rodape */
+  #outros__testes #seguir {
+    font-size: 2em;
+    padding: 15px;
+  }
+
+  .attribution {
+    padding-top: 25px;
+    font-size: 1.3em;
   }
 }
