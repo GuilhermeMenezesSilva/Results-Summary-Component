@@ -1,75 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styled/reset.css" />
-    <link
-      rel="stylesheet"
-      href="styled/style.css"
-      media="screen and (max-width: 425px)"
-    />
-    <title>Summary results</title>
-  </head>
 
-  <body>
-    <header id="topo">
-      <h4>Your Result</h4>
-      <div id="resultado">
-        <h1>76</h1>
-        <p>of 100</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styled/reset.css" />
+  <link rel="stylesheet" href="styled/style.css"/>
+  <title>Summary results</title>
+</head>
+
+<body>
+  <header id="topo">
+    <h4>Your Result</h4>
+    <div id="resultado">
+      <h1>76</h1>
+      <p>of 100</p>
+    </div>
+
+    <div id="classificacao">
+      <h2>Great</h2>
+      <p>
+        You scored higher than 65% of the
+        <span id="quebra__linha">people who have taken these tests.</span>
+      </p>
+    </div>
+  </header>
+
+  <main id="outros__testes">
+    <h4>Summary</h4>
+    <div>
+      <div id="reaction">
+        <img src="./images/icon-reaction.svg" alt="mini imagem de reação" />
+        <p id="titulo__teste__reaction">Reaction</p>
+        <p class="resultado__teste">80<span class="total">/100</span></p>
       </div>
 
-      <div id="classificacao">
-        <h2>Great</h2>
-        <p>
-          You scored higher than 65% of the
-          <span id="quebra__linha">people who have taken these tests.</span>
-        </p>
+      <div id="memory">
+        <img src="./images/icon-memory.svg" alt="mini imagem de memoria" />
+        <p id="titulo__teste__memory">Memory</p>
+        <p class="resultado__teste">92<span class="total">/100</span></p>
       </div>
-    </header>
 
-    <main id="outros__testes">
-      <h4>Summary</h4>
-      <div>
-        <div id="reaction">
-          <img src="./images/icon-reaction.svg" alt="mini imagem de reação" />
-          <p id="titulo__teste__reaction">Reaction</p>
-          <p class="resultado__teste">80<span class="total">/100</span></p>
-        </div>
-
-        <div id="memory">
-          <img src="./images/icon-memory.svg" alt="mini imagem de memoria" />
-          <p id="titulo__teste__memory">Memory</p>
-          <p class="resultado__teste">92<span class="total">/100</span></p>
-        </div>
-
-        <div id="verbal">
-          <img src="./images/icon-verbal.svg" alt="mini imagem de verbal" />
-          <p id="titulo__teste__verbal">Verbal</p>
-          <p class="resultado__teste">61<span class="total">/100</span></p>
-        </div>
-
-        <div id="visual">
-          <img src="./images/icon-visual.svg" alt="mini imagem de verbal" />
-          <p id="titulo__teste__visual">Visual</p>
-          <p class="resultado__teste">72<span class="total">/100</span></p>
-        </div>
+      <div id="verbal">
+        <img src="./images/icon-verbal.svg" alt="mini imagem de verbal" />
+        <p id="titulo__teste__verbal">Verbal</p>
+        <p class="resultado__teste">61<span class="total">/100</span></p>
       </div>
-      <p id="seguir">Continuar</p>
-    </main>
 
-    <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >
-        Coded by
-        <a href="https://www.frontendmentor.io/profile/GuilhermeMenezesSilva"
-          >Guilherme Menezes</a
-        >
+      <div id="visual">
+        <img src="./images/icon-visual.svg" alt="mini imagem de verbal" />
+        <p id="titulo__teste__visual">Visual</p>
+        <p class="resultado__teste">72<span class="total">/100</span></p>
       </div>
-    </footer>
-  </body>
+    </div>
+    <p id="seguir">Continuar</p>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      Coded by
+      <a href="https://www.frontendmentor.io/profile/GuilhermeMenezesSilva">Guilherme Menezes</a>
+    </div>
+  </footer>
+</body>
+
 </html>
