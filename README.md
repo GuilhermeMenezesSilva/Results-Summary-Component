@@ -11,7 +11,7 @@ Você pode encontrar o desafio original clicando no link: [https://www.frontendm
 <h4>:heavy_check_mark: Projeto Finalizado :heavy_check_mark:</h4>
 
 ## Acesso à Solução
-A minha solução para este desafio pode ser acessada através do link: [https://guilhermemenezessilva.github.io/Resumo-de-resultados/](https://guilhermemenezessilva.github.io/Resumo-de-resultados/)
+A minha solução para este desafio pode ser acessada através do link: [https://guilhermemenezessilva.github.io/Results-Summary-Component/](https://guilhermemenezessilva.github.io/Results-Summary-Component/)
 
 ## Tecnologias Utilizadas
 - ![HTML](https://img.shields.io/badge/HTML-5-orange)
