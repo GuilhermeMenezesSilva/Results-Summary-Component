@@ -310,18 +310,17 @@ img {
     background-color: lightgray;
     display: flex;
   }
-  
+
   #topo,
   #outros__testes {
     flex: 1;
     border-radius: 30px;
-    padding: 50;
-    margin: 15px 295px 0px 260px;
-     }
-  
+    margin: 20px 100px 0px 100px;
+  }
+
   #outros__testes {
     background-color: white;
-    margin-left: -295px;
+    margin-left: -160px;
   }
 
   #resultado {
@@ -333,30 +332,29 @@ img {
   #resultado h1 {
     font-size: 5.8em;
   }
-  
+
   #resultado p {
     font-size: 1.5em;
   }
 
   #classificacao h2 {
-    padding-top: 15px;
+    margin-top: -18px;
     font-size: 2.5em;
   }
-  
+
   #classificacao p {
-    padding-top: 18px;
-    font-size: 1.8em;
+    font-size: 2.4em;
+    margin-right: 50px;
   }
-  
+
   #score {
     white-space: normal; /* Permite que o texto quebre em várias linhas */
     display: block; /* Faz o parágrafo ocupar toda a largura */
   }
-  
+
   #quebra__linha {
     display: inline; /* Faz o span ficar em linha com o texto principal */
   }
-  
 
   #outros__testes h4 {
     font-size: 1.8em;
@@ -364,7 +362,7 @@ img {
   }
 
   img {
-    margin-left: -20px;
+    margin-left: -80px;
     width: 40px;
   }
 
@@ -372,19 +370,18 @@ img {
   #titulo__teste__memory,
   #titulo__teste__verbal,
   #titulo__teste__visual {
-    margin-left: -70px;
+    margin-left: -190px;
     padding-top: 0px;
     font-size: 1.7em;
   }
 
   .resultado__teste {
     margin-right: -60px;
-    padding-top: 7px;
-    font-size: 1.5em;
+    padding-top: 0px;
+    font-size: 2em;
   }
-
 
   footer {
     display: none;
-  }  
+  }
 }
