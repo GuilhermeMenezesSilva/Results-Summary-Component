@@ -231,15 +231,15 @@ img {
   }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   /* Cabeçalho */
-  #topo{
+  #topo {
     padding-bottom: 80px;
   }
 
   #topo h4 {
     font-size: 1.8em;
-    padding-top: 48px
+    padding-top: 48px;
   }
 
   #resultado {
@@ -268,12 +268,12 @@ img {
     padding-top: 5px;
   }
 
-   /* Principal */
-   #outros__testes h4 {
+  /* Principal */
+  #outros__testes h4 {
     font-size: 2.5em;
     padding: 20px 28px;
   }
-   img {
+  img {
     margin-left: -157px;
     width: 40px;
   }
@@ -287,11 +287,11 @@ img {
     font-size: 1.5em;
   }
 
-  .resultado__teste {    
+  .resultado__teste {
     margin-right: -125px;
     padding-top: 7px;
     font-size: 1.5em;
-  } 
+  }
 
   /* Rodape */
   #outros__testes #seguir {
@@ -302,5 +302,29 @@ img {
   .attribution {
     padding-top: 25px;
     font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: lightgray;
+    display: flex;
+  }
+
+  #topo,
+  #outros__testes {
+    flex: 1;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 100px 26px 20px 80px;
+  }
+
+  #outros__testes {
+    background-color: white;
+    margin: 100px 80px 20px -78px;
+  }
+
+  footer {
+    display: none;
   }
 }
