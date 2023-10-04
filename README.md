@@ -1,6 +1,6 @@
 <h1 align="center">Results Summary Component</h1>
 
-![Screenshot do Projeto](https://github.com/GuilhermeMenezesSilva/Resumo-de-resultados/assets/107522195/c1099603-c3dc-4fdd-8d80-5e04b2004177)
+![Screenshot 2023-10-04 081103](https://github.com/GuilhermeMenezesSilva/Results-Summary-Component/assets/107522195/c956ffb0-9344-4922-8153-d98217540549)
 
 ## Descrição
 Este projeto é uma solução para o desafio "Results Summary Component" do Frontend Mentor, que consiste em criar um componente de resumo de resultados usando HTML e CSS. Este desafio oferece também um arquivo JSON com os resultados dos testes para aqueles que desejam praticar JavaScript.
