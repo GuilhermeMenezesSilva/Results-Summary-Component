@@ -315,7 +315,7 @@ img {
   #outros__testes {
     flex: 1;
     border-radius: 30px;
-    margin: 20px 100px 0px 100px;
+    margin: 70px 100px 0px 100px;
   }
 
   #outros__testes {
@@ -344,7 +344,8 @@ img {
 
   #classificacao p {
     font-size: 2.4em;
-    margin-right: 50px;
+    margin-right: 60px;
+    margin-left: 20px;
   }
 
   #score {
